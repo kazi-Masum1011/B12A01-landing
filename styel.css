@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url(Assets/Hero-bg.png);
+}
+nav{
+    display: flex;
+    padding:50px 150px 0 150px;
+    justify-content: space-between;
+}
+nav h2{
+    color: rgba(78, 71, 255, 1);
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.hero-ditels{
+        text-align: center;
+        padding: 158px 0 152px 0;
+}
+.hero-ditels h1{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 37px;
+}
+.btn{
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 10px;
+}
