@@ -72,3 +72,29 @@ nav h2{
     height: 328px;
     border-radius: 48px;
 }
+
+/* user-section */
+.user-section{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 142px;
+    text-align: center;
+}
+.user-section h1{
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.user-data{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.user-child h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.user-child h4{
+    color:rgba(0, 0, 0, 0.5) ;
+}
