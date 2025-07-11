@@ -173,7 +173,6 @@ nav h2{
 form label{
     font-size: 18px;
     font-weight: 600;
-    
 } 
 .in-border{
     border: none;
@@ -192,4 +191,51 @@ form label{
     border-radius: 10px;
     text-align: center;
     margin: 19px auto 0;
+    margin-bottom: 71px;
+}
+
+/* footer section */
+footer{
+    text-align: center;
+    background-color: white;
+    padding: 104px 0 0 0;
+}
+footer h1{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+footer p{
+    color: #8987A1;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    padding-bottom: 20px;
+}
+footer ul{
+    justify-content: center;
+    display: flex;
+    gap: 48px;
+    padding-bottom: 103px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    
+    text-decoration: none;
+    color: #8987A1;
+}
+/* hover btn */
+.btn:hover{
+    background-color:yellow;
+    color: black;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color:yellow;
+    color: black;
+    cursor: pointer;
 }
