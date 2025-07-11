@@ -180,6 +180,7 @@ form label{
     margin-top: 10px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 .add-btn{
     padding: 19px 225px;
