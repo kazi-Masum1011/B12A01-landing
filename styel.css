@@ -98,3 +98,98 @@ nav h2{
 .user-child h4{
     color:rgba(0, 0, 0, 0.5) ;
 }
+
+
+/* card-section */
+.card-section{
+    padding-bottom: 137px;
+    
+}
+.card-section h2{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    padding: 137px 0 50px 0;
+}
+
+.card-main{
+    background-color: white;
+    padding: 24px;
+    border-radius: 14px;
+}
+.card-main h3{
+    padding: 24px 0 8px 0;
+}
+.card-main P{
+    padding-bottom: 24px;
+}
+.photo-with-girl{
+    display: flex;
+}
+.photo-with-girl img{
+    padding-right: 12px;
+    border-radius: 50%;
+}
+.photo-with-girl-ditels{
+    color: #757575;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* focus section */
+.focus{
+    padding: 71px 150px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 14px;
+}
+.focus h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.focus p{
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+.focus img{
+    border-radius: 48px;
+    padding-top: 20px;
+}
+/* from-section */
+.from-section{
+    padding: 92px 0 14px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.from-section h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+form label{
+    font-size: 18px;
+    font-weight: 600;
+    
+} 
+.in-border{
+    border: none;
+    padding: 20px 271px 20px 32px ;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.add-btn{
+    padding: 19px 225px;
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin: 19px auto 0;
+}
